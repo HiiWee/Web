@@ -1,0 +1,56 @@
+/* 7주차 실습 */
+.header_div {
+  background-color: rgb(128, 147, 250);
+  position: relative;
+  width: 1000px;
+  margin: 0 auto;
+}
+.header a{
+  text-decoration: none;
+}
+.header font{
+  color: white;
+}
+.nav {
+  background-color: rgb(61, 66, 83);
+  height: 30px;
+  padding: 10px 0;
+  /* padding-top: 10px; */
+  /* padding-bottom: 10px; */
+}
+.nav > a {
+  font-size: 20px;
+  text-decoration: none;
+  font-weight: bold;
+  font-family: inherit;
+  color:white;
+  margin-left: 50px;
+}
+.content_div {
+  position: relative;
+  margin: 0 auto;
+  width: 1000px;
+}
+
+.aside {
+  background-color: rgb(100, 102, 110);
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 43%;
+  height: auto;
+  color: white;
+}
+.aside > h3, p {
+  padding: 10px;
+}
+.footer_div{
+  background-color: rgb(100, 102, 110);
+  position: relative;
+  width: 1000px;
+  margin: 0 auto;
+  /* color: white; */
+}
+.footer_div font {
+  color: white;
+}
