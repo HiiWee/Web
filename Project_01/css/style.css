@@ -1,11 +1,18 @@
 /* 7주차 실습 */
+/* Cascading Style Sheets
+   HTML 파일을 작성할 때 글자의 크기나 색깔, 여백 등의 각종 스타일을 지정할 때 사용하는 것 입니다. 
+*/
+/* 인코딩 설정 */
+@charset "utf-8";
+
 .header_div {
   background-color: rgb(128, 147, 250);
   position: relative;
   width: 1000px;
   margin: 0 auto;
 }
-.header a{
+/* homelogo 하이퍼링크 언더바 지움 */
+.header > p > a{
   text-decoration: none;
 }
 .header font{
