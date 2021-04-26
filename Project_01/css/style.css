@@ -1,8 +1,11 @@
 /* 7주차 실습 */
 /* Cascading Style Sheets
    HTML 파일을 작성할 때 글자의 크기나 색깔, 여백 등의 각종 스타일을 지정할 때 사용하는 것 입니다. 
-*/
-/* 인코딩 설정 */
+/* 
+8주차 
+인코딩설정,
+인코딩 설정, homelogo 태그 자식선택자 수정
+ */
 @charset "utf-8";
 
 .header_div {
@@ -60,4 +63,34 @@
 }
 .footer_div font {
   color: white;
+}
+
+
+/* s3.html 영역 */
+.frontEnd {
+  width: 560px;
+  height: auto;;
+}
+.backEnd {
+  width: 560px;
+  height: auto;;
+}
+.fullStack {
+  width: 560px;
+  height: auto;; 
+}
+
+/* s4.html 영역 */
+table {
+  /* border: 1px solid #000; */
+  width: 1000px;
+  text-align: center;
+  border-collapse: collapse;
+}
+table td {
+  /* border: 1px solid #000; */
+}
+table img {
+  width: 331px;
+  height: auto;
 }
