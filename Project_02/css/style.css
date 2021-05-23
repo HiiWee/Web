@@ -1,0 +1,37 @@
+
+.container {
+  width: 1080px;
+  margin: 0 auto;
+  position: relative;
+}
+header {
+  background-color: rgb(128, 147, 250);
+}
+header .title_div span {
+  margin-left: 30px;
+  font-size: 30px;
+  font-weight: bold;
+  font-family: sans-serif;
+}
+header .navigation_div ul {
+  background-color: rgb(61, 66, 83);
+  list-style: none;
+  overflow: hidden;
+}
+header .navigation_div li {
+  float: left;
+  margin-left: 20px;
+  padding: 10px 0;
+  font-size: 20px;
+}
+header .navigation_div li a {
+  text-decoration: none;
+  color: #fff;
+}
+header .title_div img {
+  width: 70px;
+}
+
+article {
+  background-color: dodgerblue;
+}
