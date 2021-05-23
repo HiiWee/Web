@@ -10,7 +10,6 @@
 
 .header_div {
   background-color: rgb(128, 147, 250);
-  position: relative;
   width: 1000px;
   margin: 0 auto;
 }
@@ -51,12 +50,11 @@
   height: auto;
   color: white;
 }
-.aside > h3, p {
+.content_div > .aside {
   padding: 10px;
 }
 .footer_div{
   background-color: rgb(100, 102, 110);
-  position: relative;
   width: 1000px;
   margin: 0 auto;
   /* color: white; */
