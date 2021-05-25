@@ -1,4 +1,5 @@
 
+/* ALL COMMON */
 .container {
   width: 1080px;
   margin: 0 auto;
@@ -67,4 +68,11 @@ aside .aside_div {
 }
 aside .aside_div a {
   color: #fff;
+}
+
+/* ABOUT PART */
+
+summary {
+  list-style: none;
+  cursor: pointer;
 }
