@@ -42,13 +42,13 @@ header .title_div img {
 }
 
 /* MAIN CONTENT PART */
-section {
+.content_div {
   background-color: #d3d9fa;
   border-radius: 7px;
   margin: 0 auto;
   position: relative;
 }
-section article {
+.content_div article {
   padding: 2.5px 0 2.5px 5px;
 }
 
