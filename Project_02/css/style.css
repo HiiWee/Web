@@ -7,7 +7,8 @@
   position: relative;
 }
 
-/* HEADER PART */
+/* <<INDEX PART>> */
+/* INDEX: header part */
 header {
   background-color: #8093fa;
   border-radius: 7px;
@@ -41,7 +42,7 @@ header .title_div img {
   width: 70px;
 }
 
-/* MAIN CONTENT PART */
+/* INDEX: main content part */
 .content_div {
   background-color: #d3d9fa;
   border-radius: 7px;
@@ -51,13 +52,22 @@ header .title_div img {
 .content_div article {
   padding: 2.5px 0 2.5px 5px;
 }
+.content_div .first_article .my_pic{
+  width: 500px;
+  border-radius: 10px;
+}
+.content_div .first_article a{
+  text-decoration: none;
+  color: #000;
+  font-weight: bold;
+}
 
-/* FOOTER PART */
+/* INDEX: footer part */
 footer {
   text-align: center;
 }
 
-/* ASIDE PART */
+/* INDEX: aside part */
 aside .aside_div {
   background-color: #33374b;
   position: fixed;
@@ -66,14 +76,75 @@ aside .aside_div {
   color: #fff;
   padding: 10px;
   border-radius: 10px;
+  text-align: center;
 }
 aside .aside_div a {
   color: #fff;
 }
+aside .aside_div img{
+  width: 150px;
+}
 
-/* ABOUT PART */
+/* COMMON: ABOUT, POST part*/
 
 summary {
   list-style: none;
   cursor: pointer;
+}
+
+/* <<ABOUT PART>> */
+/* ABOUT: header part */
+  /* NONE */
+
+/* ABOUT: main content part */
+.content_div .first_article .check_pic{
+  width: 20px;
+}
+
+/* ABOUT: footer part */
+  /* NONE */
+
+/* ABOUT: aside part */
+  /* NONE */
+
+/* POST PART */
+  /* NONE */
+
+/* POST: header part */
+  /* NONE */
+  
+/* POST: main content part */
+.content_div .first_article .music_pic{
+  width: 50px;
+}
+.content_div .second_article .album_table tr td{
+  /* Temp border */
+  /* border: 1px solid #000; */
+  text-align: center;
+  padding: 10px;
+}
+.content_div .second_article .album_table details p{
+  text-align: justify;
+}
+.content_div .second_article .album_table img{
+  width: 331px;
+  border-radius: 10px;
+}
+
+/* POST: footer part */
+  /* NONE */
+
+/* POST: aside part */
+aside .aside2_div {
+  background-color: #33374b;
+  position: absolute;
+  top: 5px;
+  left: 38%;
+  color: #fff;
+  padding: 10px;
+  border-radius: 10px;
+  text-align: center;
+}
+aside .aside2_div a {
+  color: #fff;
 }
