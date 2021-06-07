@@ -6,27 +6,52 @@
   margin: 0 auto;
   position: relative;
 }
+/* COMMON: INDEX, ABOUT part */
+.first_article, .second_article, .third_article {
+  margin-left: 21px;
+}
+/* COMMON: ABOUT, POST part*/
+
+summary {
+  list-style: none;
+  cursor: pointer;
+}
+
 
 /* <<INDEX PART>> */
 /* INDEX: header part */
 header {
-  background-color: #8093fa;
+  background-color: #383e3d;
   border-radius: 7px;
+}
+header .title_div {
+  height: 58px;
+
 }
 header .title_div a {
   position: relative;
   top: 17px;
   left: 15px;
 }
+header .title_div .home_pic {
+  position: relative;
+  width: 35px;
+  height: auto;
+  margin-left: 20px;
+  bottom: -5px;
+}
+
 header .title_div span {
+  position: relative;
+  top: 20px;
   margin-left: 30px;
-  font-size: 30px;
-  font-weight: bold;
+  font-size: 25px;
+  font-weight: normal;
   font-family: sans-serif;
   color: #fff;
 }
 header .navigation_div {
-  background-color: #3d4253;
+  background-color: #731a1a;
   border-radius: 0 0 7px 7px;
 }
 header .navigation_div ul {
@@ -35,7 +60,7 @@ header .navigation_div ul {
 }
 header .navigation_div li {
   float: left;
-  margin-left: 40px;
+  margin-left: 50px;
   padding: 10px 0;
   font-size: 20px;
 }
@@ -49,13 +74,13 @@ header .title_div img {
 
 /* INDEX: main content part */
 .content_div {
-  background-color: #d3d9fa;
+  background-color: #f4f4f4;
   border-radius: 7px;
   margin: 0 auto;
   position: relative;
 }
 .content_div article {
-  padding: 2.5px 0 2.5px 5px;
+  padding: 2.5px 0 2.5px 0px;
 }
 .content_div .first_article .my_pic{
   width: 500px;
@@ -74,14 +99,18 @@ footer {
 
 /* INDEX: aside part */
 aside .aside_div {
-  background-color: #33374b;
+  background-color: #8d8d8d;
   position: fixed;
   top: 180px;
   right: 120px;
-  color: #fff;
   padding: 10px;
   border-radius: 10px;
   text-align: center;
+}
+aside .aside_div .aside_title{
+  display: inline-block;
+  color: #fff;
+  margin: 10px;
 }
 aside .aside_div a {
   color: #fff;
@@ -90,12 +119,6 @@ aside .aside_div img{
   width: 150px;
 }
 
-/* COMMON: ABOUT, POST part*/
-
-summary {
-  list-style: none;
-  cursor: pointer;
-}
 
 /* <<ABOUT PART>> */
 /* ABOUT: header part */
@@ -103,7 +126,7 @@ summary {
 
 /* ABOUT: main content part */
 .content_div .check_pic{
-  width: 20px;
+  width: 13px;
 }
 /* ABOUT: footer part */
   /* NONE */
@@ -118,19 +141,24 @@ summary {
   /* NONE */
   
 /* POST: main content part */
-.content_div .first_article .music_pic{
-  width: 50px;
+.content_div .p_first_article .music_pic{
+  position: relative;
+  top: 5px;
+  width: 30px;
+  margin: 0px 10px 0 22px;
 }
-.content_div .second_article .album_table tr td{
-  /* Temp border */
-  /* border: 1px solid #000; */
+.content_div .p_second_article .album_table {
+  margin-left: auto;
+  margin-right: auto;
+}
+.content_div .p_second_article .album_table tr td{
   text-align: center;
   padding: 10px;
 }
-.content_div .second_article .album_table details p{
+.content_div .p_second_article .album_table details p{
   text-align: justify;
 }
-.content_div .second_article .album_table img{
+.content_div .p_second_article .album_table img{
   width: 331px;
   border-radius: 10px;
 }
@@ -140,7 +168,7 @@ summary {
 
 /* POST: aside part */
 aside .aside2_div {
-  background-color: #33374b;
+  background-color: #8d8d8d;
   position: absolute;
   top: 5px;
   left: 38%;
@@ -148,6 +176,11 @@ aside .aside2_div {
   padding: 10px;
   border-radius: 10px;
   text-align: center;
+}
+aside .aside2_div .aside2_title {
+  display: inline-block;
+  color: #fff;
+  margin: 10px;
 }
 aside .aside2_div a {
   color: #fff;
