@@ -13,6 +13,11 @@ header {
   background-color: #8093fa;
   border-radius: 7px;
 }
+header .title_div a {
+  position: relative;
+  top: 17px;
+  left: 15px;
+}
 header .title_div span {
   margin-left: 30px;
   font-size: 30px;
@@ -30,7 +35,7 @@ header .navigation_div ul {
 }
 header .navigation_div li {
   float: left;
-  margin-left: 20px;
+  margin-left: 40px;
   padding: 10px 0;
   font-size: 20px;
 }
