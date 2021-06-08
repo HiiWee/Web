@@ -1,9 +1,22 @@
+<!-- 
+  Prj : Project_02
+  lang : only HTML5
+  Subject : 좋아하는 음악 소개 블로그
+  만든이 : 201701359 이호석
+  버젼관리 : http://github.com
+  설명 : 
+    1개의 main index 파일과 2개의 메뉴 서브 html로 구성
+    styleSheet는 3개의 파일로 나누어 작성하려 했지만 코드의 무게가
+    무겁지 않아서 1개로 통합함. 공통 사항 및 각 html파일별로 속성을 입력했으므로
+    차후에 기능을 더 추가해야 할 경우 그 때 나누어서 작성을 해도 되게 만듦.
+ -->
+
 <!DOCTYPE html>
 <html lang="ko">
 
 <head>
   <meta charset="UTF-8">
-  <meta name="description" content="프로젝트_01">
+  <meta name="description" content="프로젝트_02">
   <meta name="keywords" content="HTML5, CSS, JQUERY">
   <link rel="stylesheet" href="css/style.css">
   <title>Hoseok's Blog</title>
@@ -13,7 +26,7 @@
   <div class="container">
     <header>
       <div class="title_div">
-        <a href="index.html"><img class="home_pic" src="./images/homelogo.png" alt="HomeLoge image"></a>
+        <a href="index.html"><img class="home_pic" src="./images/homelogo.png" alt="HomeLogo image"></a>
         <span>Hoseok's Blog</span>
       </div>
       <nav>
@@ -34,7 +47,7 @@
           <img class="my_pic" src="images/me.jpg" alt="블로그 주인의 사진">
           <br>201701359 이호석의 개인적인 블로그 입니다. <br>
           좋아하는 가수와 음악을 소개하기 위해 만들어 졌습니다.<br>
-          <a target="_blank" href="https://github.com/HiiWee">Github</a>
+          <a class="link_git" target="_blank" href="https://github.com/HiiWee/Web">> Github: Project_02</a> (홈페이지 깃허브 주소)
         </p>
       </article>
       <article class="second_article">
