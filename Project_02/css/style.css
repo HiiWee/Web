@@ -6,39 +6,25 @@
   margin: 0 auto;
   position: relative;
 }
-/* COMMON: INDEX, ABOUT part */
-.first_article, .second_article, .third_article {
-  margin-left: 21px;
-}
-/* COMMON: ABOUT, POST part*/
-
-summary {
-  list-style: none;
-  cursor: pointer;
-}
-
-
-/* <<INDEX PART>> */
-/* INDEX: header part */
+/* ALL COMMON: header part */
 header {
   background-color: #383e3d;
   border-radius: 7px;
 }
+
 header .title_div {
   height: 58px;
-
 }
+
 header .title_div a {
   position: relative;
-  top: 17px;
+  top: 22px;
   left: 15px;
-}
-header .title_div .home_pic {
-  position: relative;
-  width: 35px;
-  height: auto;
   margin-left: 20px;
-  bottom: -5px;
+}
+
+header .title_div .home_pic {
+  width: 35px;
 }
 
 header .title_div span {
@@ -50,54 +36,55 @@ header .title_div span {
   font-family: sans-serif;
   color: #fff;
 }
+
 header .navigation_div {
   background-color: #731a1a;
   border-radius: 0 0 7px 7px;
 }
+
 header .navigation_div ul {
   list-style: none;
   overflow: hidden;
 }
+
 header .navigation_div li {
   float: left;
   margin-left: 50px;
   padding: 10px 0;
   font-size: 20px;
 }
+
 header .navigation_div li a {
   text-decoration: none;
   color: #fff;
 }
-header .title_div img {
-  width: 70px;
+/* ALL COMMON: main content part */
+.content_div article {
+  padding: 2.5px 0 2.5px 0px;
 }
 
-/* INDEX: main content part */
 .content_div {
   background-color: #f4f4f4;
   border-radius: 7px;
   margin: 0 auto;
   position: relative;
 }
-.content_div article {
-  padding: 2.5px 0 2.5px 0px;
-}
-.content_div .first_article .my_pic{
-  width: 500px;
-  border-radius: 10px;
-}
-.content_div .first_article a{
-  text-decoration: none;
-  color: #000;
-  font-weight: bold;
-}
 
-/* INDEX: footer part */
+/* ALL COMMON: footer part */
 footer {
   text-align: center;
 }
 
-/* INDEX: aside part */
+/* INDEX, ABOUT COMMON */
+.first_article,
+.second_article,
+.third_article,
+.a_first_article,
+.a_second_article {
+  margin-left: 21px;
+}
+
+/* INDEX, ABOUT COMMON: aside part */
 aside .aside_div {
   background-color: #8d8d8d;
   position: fixed;
@@ -107,81 +94,124 @@ aside .aside_div {
   border-radius: 10px;
   text-align: center;
 }
-aside .aside_div .aside_title{
+
+aside .aside_div .aside_title {
   display: inline-block;
   color: #fff;
   margin: 10px;
 }
+
 aside .aside_div a {
   color: #fff;
 }
-aside .aside_div img{
+
+aside .aside_div img {
   width: 150px;
 }
 
+/* ABOUT, POST COMMON */
+summary {
+  list-style: none;
+  cursor: pointer;
+}
+/* ------------------------------------------------ */
 
-/* <<ABOUT PART>> */
+
+/* <<index.html>> */
+/* INDEX: header part */
+/* NONE */
+
+/* INDEX: main content part */
+.content_div .first_article .my_pic {
+  width: 500px;
+  border-radius: 10px;
+}
+
+.content_div .first_article .link_git {
+  text-decoration: none;
+  color: #000;
+  font-weight: bold;
+}
+
+/* INDEX: footer part */
+/* NONE */
+
+/* INDEX: aside part */
+/* NONE */
+/* ------------------------------------------------ */
+
+
+/* <<about.html>> */
 /* ABOUT: header part */
-  /* NONE */
+/* NONE */
 
 /* ABOUT: main content part */
-.content_div .check_pic{
+.content_div .check_pic {
   width: 13px;
 }
+
 /* ABOUT: footer part */
-  /* NONE */
+/* NONE */
 
 /* ABOUT: aside part */
-  /* NONE */
+/* NONE */
+/* ------------------------------------------------ */
 
-/* POST PART */
-  /* NONE */
 
+/* <<post.html>> */
 /* POST: header part */
-  /* NONE */
-  
+/* NONE */
+
 /* POST: main content part */
-.content_div .p_first_article .music_pic{
+.content_div .p_first_article .music_pic {
   position: relative;
   top: 5px;
   width: 30px;
   margin: 0px 10px 0 22px;
 }
-.content_div .p_second_article .album_table {
+
+.content_div .p_first_article .album_table {
   margin-left: auto;
   margin-right: auto;
 }
-.content_div .p_second_article .album_table tr td{
+
+.content_div .p_first_article .album_table tr td {
   text-align: center;
   padding: 10px;
 }
-.content_div .p_second_article .album_table details p{
-  text-align: justify;
-}
-.content_div .p_second_article .album_table img{
+
+.content_div .p_first_article .album_table img {
   width: 331px;
   border-radius: 10px;
 }
 
+.content_div .p_first_article .album_table details p {
+  text-align: justify;
+}
+
 /* POST: footer part */
-  /* NONE */
+/* NONE */
 
 /* POST: aside part */
-aside .aside2_div {
+aside .p_aside_div {
   background-color: #8d8d8d;
   position: absolute;
   top: 5px;
-  left: 38%;
+  left: 50%;
+  transform: translate(-50%, 0);
   color: #fff;
   padding: 10px;
   border-radius: 10px;
   text-align: center;
 }
-aside .aside2_div .aside2_title {
+
+aside .p_aside_div .p_aside_title {
   display: inline-block;
   color: #fff;
   margin: 10px;
 }
-aside .aside2_div a {
+
+aside .p_aside_div a {
   color: #fff;
 }
+/* ------------------------------------------------ */
