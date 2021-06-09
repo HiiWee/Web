@@ -9,4 +9,4 @@
 ### 버젼
 > Project_01 DONE
 > 
-> Project_02 DONE
+> Project_02 DONE 2021.06.09
