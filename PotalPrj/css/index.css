@@ -1,0 +1,203 @@
+/* INDEX PART */
+/* 공통: 수강교과목, 게시판 */
+.mainContent_div .top_content {
+  overflow: hidden;
+}
+
+.mainContent_div .top_content div {
+  background-color: #f4f4f4;
+  float: left;
+}
+
+/*---------- 수강교과목 ----------*/
+.mainContent_div .top_content .course_board {
+  width: 635px;
+  height: 293.333px;
+}
+
+.mainContent_div .top_content .course_board ul {
+  background-color: rgb(204, 202, 202);
+  list-style: none;
+  width: 610px;
+  position: relative;
+  top: 30px;
+  padding: 2px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.mainContent_div .top_content .course_board ul li {
+  display: inline-block;
+  border: 1px solid rgb(97, 96, 96);
+  width: 150px;
+  height: 30px;
+  margin: -2.9px;
+  background-color: #fff;
+}
+
+.mainContent_div .top_content .course_board .row1 li {
+  background-color: rgb(204, 202, 202);
+}
+
+.mainContent_div .top_content .course_board .row2 li {
+  background-color: rgb(204, 202, 202);
+}
+
+
+
+
+/* ---------- 게시판 ---------- */
+.mainContent_div .top_content .subject_board {
+  width: 775px;
+  height: 293.333px;
+}
+
+.mainContent_div .top_content .subject_board ul {
+  background-color: rgb(204, 202, 202);
+  list-style: none;
+  width: 702px;
+  position: relative;
+  top: 30px;
+  padding: 2px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.mainContent_div .top_content .subject_board ul li {
+  display: inline-block;
+  border: 1px solid rgb(97, 96, 96);
+  width: 115px;
+  height: 30px;
+  margin: -2.9px;
+  background-color: #fff;
+}
+
+.mainContent_div .top_content .subject_board .row1 li {
+  background-color: rgb(204, 202, 202);
+  width: 190px;
+}
+
+.mainContent_div .top_content .subject_board .row2 li {
+  background-color: rgb(204, 202, 202);
+}
+
+
+
+
+/* 공통: 강의록, 질의사항*/
+.mainContent_div .middle_content {
+  overflow: hidden;
+}
+
+.mainContent_div .middle_content div {
+  float: left;
+  background-color: #f4f4f4;
+}
+
+/* ---------- 강의록 ---------- */
+.mainContent_div .middle_content .lecture_board {
+  width: 635px;
+  height: 293.333px;
+}
+
+.mainContent_div .middle_content .lecture_board ul {
+  background-color: rgb(204, 202, 202);
+  list-style: none;
+  width: 612px;
+  position: relative;
+  top: 30px;
+  padding: 2px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.mainContent_div .middle_content .lecture_board ul li {
+  display: inline-block;
+  border: 1px solid rgb(97, 96, 96);
+  width: 100px;
+  height: 30px;
+  margin: -2.9px;
+  background-color: #fff;
+}
+
+.mainContent_div .middle_content .lecture_board .row1 li {
+  background-color: rgb(204, 202, 202);
+  width: 190px;
+}
+
+.mainContent_div .middle_content .lecture_board .row2 li {
+  background-color: rgb(204, 202, 202);
+}
+
+/* ---------- 질의사항 ---------- */
+.mainContent_div .middle_content .question_board {
+  width: 775px;
+  height: 293.333px;
+}
+
+.mainContent_div .middle_content .question_board ul {
+  background-color: rgb(204, 202, 202);
+  list-style: none;
+  width: 704px;
+  position: relative;
+  top: 30px;
+  padding: 2px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.mainContent_div .middle_content .question_board ul li {
+  display: inline-block;
+  border: 1px solid rgb(97, 96, 96);
+  width: 85px;
+  height: 30px;
+  margin: -2.9px;
+  background-color: #fff;
+}
+
+.mainContent_div .middle_content .question_board .row1 li {
+  background-color: rgb(204, 202, 202);
+  width: 210px;
+}
+
+.mainContent_div .middle_content .question_board .row2 li {
+  background-color: rgb(204, 202, 202);
+}
+
+
+
+/* ---------- 리포트 ---------- */
+.mainContent_div .bottom_content .report_board {
+  background-color: #f4f4f4;
+  width: 1410px;
+  height: 293.333px;
+}
+
+.mainContent_div .bottom_content .report_board ul {
+  background-color: rgb(204, 202, 202);
+  list-style: none;
+  width: 1382px;
+  position: relative;
+  top: 30px;
+  padding: 2px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.mainContent_div .bottom_content .report_board ul li {
+  display: inline-block;
+  border: 1px solid rgb(97, 96, 96);
+  width: 135px;
+  height: 30px;
+  margin: -2.9px;
+  background-color: #fff;
+}
+
+.mainContent_div .bottom_content .report_board .row1 li {
+  background-color: rgb(204, 202, 202);
+  width: 190px;
+}
+
+.mainContent_div .bottom_content .report_board .row2 li {
+  background-color: rgb(204, 202, 202);
+}

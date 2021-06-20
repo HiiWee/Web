@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="../css/dropOut.css">
+  <title>학사관리시스템</title>
+</head>
+
+<body>
+  <div class="container">
+    <div class="header_div">
+      <div class="title_div">
+        <img src="../images/univLogo2.png">
+        <a href="../index.html">메인화면으로</a>
+        <span class="profile">사용자: 201701359 이호석</span>
+      </div>
+    </div>
+
+    <section class="navigation_div">
+      <ul>
+        <li>
+          <details>
+            <summary>
+              <span>My-Menu</span>
+            </summary>
+            <a href="./personalInfo.html">개인정보등록</a>
+          </details>
+        </li>
+        <li>
+          <details>
+            <summary>
+              <span>학적관리</span>
+            </summary>
+            <a href="./subMajor.html">복수전공신청</a>
+            <a href="./transfer.html">전과신청</a>
+            <a href="./timeOff.html">휴학신청</a>
+            <a href="./dropOut.html">자퇴신청</a>
+          </details>
+        </li>
+        <li>
+          <details>
+            <summary>
+              <span>수강관리</span>
+            </summary>
+            <a href="./apply.html">수강신청</a>
+          </details>
+        </li>
+        <li>
+          <details>
+            <summary>
+              <span>성적관리</span>
+            </summary>
+            <a href="./lectureEvaluation.html">강의평가입력</a>
+          </details>
+        </li>
+        <li>
+          <details>
+            <summary>
+              <span>상담관리</span>
+            </summary>
+            <a href="./counseling.html">상담신청</a>
+          </details>
+        </li>
+      </ul>
+    </section>
+
+    <section class="mainContent_div">
+      <article class="dropOut_content">
+
+        <div class="dropOut_board">
+          <ul class="row1">
+            <li class="cellName">소 속 대 학</li>
+            <li class="cellContent">공과대학</li>
+            <li class="cellName">학 과</li>
+            <li class="cellContent">컴퓨터공학부 소프트웨어전공</li>
+          </ul>
+
+          <ul class="row2">
+            <li class="cellName">학 번</li>
+            <li class="cellContent">201701359</li>
+            <li class="cellName">성 명</li>
+            <li class="cellContent">이호석</li>
+            <li class="cellName">학 년</li>
+            <li class="cellContent">3학년</li>
+            <li class="cellName">생 년 월 일</li>
+            <li class="cellContent">1998/10/08</li>
+          </ul>
+
+          <ul class="row3">
+            <li class="cellName">자 퇴 년 도*</li>
+            <li class="cellContent">2021</li>
+            <li class="cellName">자 퇴 학 기*</li>
+            <li class="cellContent">1학기</li>
+            <li class="cellName">신 청 일 자*</li>
+            <li class="cellContent">2021-06-20</li>
+            <li class="cellName">자 퇴 사 유*</li>
+            <li class="cellContent">-</li>
+          </ul>
+
+          <ul class="row4">
+            <li class="cellName">상 세 사 유</li>
+            <li class="cellContent">&nbsp</li>
+          </ul>
+
+          <ul class="row5">
+            <li class="cellName">보증인동의확인*</li>
+            <li class="cellContent">&nbsp <input type='checkbox' name='dropOut'/>보증인이 아직 동의하지 않았습니다.</li>
+          </ul>
+
+
+          <ul class="row6">
+            <li class="cell6_1">
+              <b>※ 주의사항</b>
+              <p>
+                <b>* 납입금 반환 신청 절차 .</b>
+              </p>
+              <p>
+                <b>
+                  1.자퇴신청시 반드시 학과사무실에 직접방문하여 면담 후 학과 승인을 받아야 자퇴처리가 진행됩니다.
+                </b>
+              </p>
+              <p>
+                <b>
+                  (*부득이한 경우 유선으로 학과사무실에 연락 가능)
+                </b>
+              </p>
+              <p>
+                <b>
+                  2. 통합정보시스템 내에서 자퇴 최종 승인 확인
+                </b>
+              </p>
+              <p>
+                <b>
+                  3. 통합정보시스템 내에서 등록금 환불신청 : [신청메뉴] 등록관리 -> 등록금환불신청
+                </b>
+              </p>
+              <p>
+                <b>
+                  (*자퇴 최종 승인자에게 메뉴 활성화되며, 환불 대상자에 한하여 환불 가능. 은행 계좌 필히 입력)
+                </b>
+              </p>
+            </li>
+          </ul>
+          <br>
+          <br>
+          <div class="btn_div">
+            <button class="save_btn" type="button">
+              자퇴신청
+            </button>
+            <button class="cancel_btn" type="button">
+              신청취소
+            </button>
+          </div>
+
+        </div>
+      </article>
+    </section>
+  </div>
+</body>
+
+</html>

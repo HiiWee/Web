@@ -1,0 +1,129 @@
+/* TIME OFF PART */
+
+/* 공통사항 */
+.mainContent_div .dropOut_content {
+  overflow: hidden;
+}
+
+.mainContent_div .dropOut_content div {
+  float: left;
+}
+
+
+/* ---------- 휴학신청 ---------- */
+.mainContent_div .dropOut_content .dropOut_board {
+  background-color: #f4f4f4;
+  width: 1410px;
+  height: 880px;
+}
+
+.mainContent_div .dropOut_content .dropOut_board ul {
+  background-color: hsl(0, 2%, 80%);
+  list-style: none;
+  width: 804px;
+  position: relative;
+  top: 20px;
+  left: 60px;
+  padding: 2px;
+  margin: 0;
+  text-align: center;
+}
+
+.mainContent_div .dropOut_content .dropOut_board ul li {
+  display: inline-block;
+  border: 1px solid rgb(97, 96, 96);
+  height: 30px;
+  margin: -2.9px;
+  background-color: #ffffff;
+}
+
+.mainContent_div .dropOut_content .dropOut_board .row1 li {
+  width: 170px;
+}
+
+.mainContent_div .dropOut_content .dropOut_board .row1 :nth-child(4) {
+  width: 268px;
+}
+
+.mainContent_div .dropOut_content .dropOut_board .row1 .cellName {
+  background-color: #cccaca;
+}
+.mainContent_div .dropOut_content .dropOut_board .row1 .cellContent {
+  text-align: justify;
+  padding-left: 10px;
+}
+
+.mainContent_div .dropOut_content .dropOut_board .row2 .cellName {
+  background-color: #cccaca;
+  width: 96px
+}
+
+.mainContent_div .dropOut_content .dropOut_board .row2 .cellContent {
+  width: 100px;
+}
+
+.mainContent_div .dropOut_content .dropOut_board .row3 .cellName {
+  background-color: #cccaca;
+  width: 96px
+}
+
+.mainContent_div .dropOut_content .dropOut_board .row3 .cellContent {
+  width: 100px;
+}
+
+.mainContent_div .dropOut_content .dropOut_board .row4 .cellName {
+  background-color: #cccaca;
+  width: 151px;
+}
+
+.mainContent_div .dropOut_content .dropOut_board .row4 .cellContent {
+  width: 650px;
+}
+
+.mainContent_div .dropOut_content .dropOut_board .row5 .cellName {
+  background-color: #cccaca;
+  width: 151px;
+}
+
+.mainContent_div .dropOut_content .dropOut_board .row5 .cellContent {
+  width: 650px;
+  text-align: justify;
+}
+
+.mainContent_div .dropOut_content .dropOut_board .row6 li{
+  height: auto;
+  width: 781px;
+  text-align: justify;
+  padding: 10px;
+}
+
+/* ---------- 휴학신청내역 ---------- */
+.mainContent_div .dropOut_content .dropOut_board .row7 li {
+  width: 1304px;
+  background-color: #cccaca;
+
+}
+
+.mainContent_div .dropOut_content .dropOut_board .row8 li {
+  width: 143px;
+  background-color: #cccaca;
+}
+.mainContent_div .dropOut_content .dropOut_board .row9 li {
+  width: 143px;
+  background-color: #fff;
+}
+.mainContent_div .dropOut_content .dropOut_board .row10 li {
+  width: 143px;
+  background-color: #fff;
+}
+
+
+
+
+/* ---------- 버튼 ---------- */
+/* 수정, 저장, 신청취소 버튼 */
+.mainContent_div .dropOut_content .dropOut_board .btn_div {
+  background-color: #f4f4f4;
+  width: 865px;
+  text-align: center;
+}

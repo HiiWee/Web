@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="../css/timeOff.css">
+  <title>학사관리시스템</title>
+</head>
+
+<body>
+  <div class="container">
+    <div class="header_div">
+      <div class="title_div">
+        <img src="../images/univLogo2.png">
+        <a href="../index.html">메인화면으로</a>
+        <span class="profile">사용자: 201701359 이호석</span>
+      </div>
+    </div>
+
+    <section class="navigation_div">
+      <ul>
+        <li>
+          <details>
+            <summary>
+              <span>My-Menu</span>
+            </summary>
+            <a href="./personalInfo.html">개인정보등록</a>
+          </details>
+        </li>
+        <li>
+          <details>
+            <summary>
+              <span>학적관리</span>
+            </summary>
+            <a href="./subMajor.html">복수전공신청</a>
+            <a href="./transfer.html">전과신청</a>
+            <a href="./timeOff.html">휴학신청</a>
+            <a href="./dropOut.html">자퇴신청</a>
+          </details>
+        </li>
+        <li>
+          <details>
+            <summary>
+              <span>수강관리</span>
+            </summary>
+            <a href="./apply.html">수강신청</a>
+          </details>
+        </li>
+        <li>
+          <details>
+            <summary>
+              <span>성적관리</span>
+            </summary>
+            <a href="./lectureEvaluation.html">강의평가입력</a>
+          </details>
+        </li>
+        <li>
+          <details>
+            <summary>
+              <span>상담관리</span>
+            </summary>
+            <a href="./counseling.html">상담신청</a>
+          </details>
+        </li>
+      </ul>
+    </section>
+
+    <section class="mainContent_div">
+      <article class="timeOff_content">
+
+        <div class="select_board">
+          <ul class="row1">
+            <li class="cellName">대 학</li>
+            <li class="cellContent">공과대학</li>
+            <li class="cellName">학 과</li>
+            <li class="cellContent">컴퓨터공학부 소프트웨어전공</li>
+            <li class="cellName">학 번</li>
+            <li class="cellContent">201701359</li>
+            <li class="cellName">성명</li>
+            <li class="cellContent">이호석</li>
+          </ul>
+
+          <ul class="row2">
+            <li class="cellName">휴학구분</li>
+            <li class="cellContent">군휴학<input type='checkbox' name='timeOff'/></li>
+            <li class="cellContent">일반휴학<input type='checkbox' name='timeOff'/></li>
+            <li class="cellContent">질병휴학<input type='checkbox' name='timeOff'/></li>
+            <li class="cellContent">육아휴학<input type='checkbox' name='timeOff'/></li>
+            <li class="cellContent">창업휴학<input type='checkbox' name='timeOff'/></li>
+          </ul>
+
+          <ul class="row3">
+            <li class="cellName">휴학시작년도</li>
+            <li class="cellContent">&nbsp</li>
+            <li class="cellName">휴학시작학기</li>
+            <li class="cellContent">&nbsp</li>
+            <li class="cellName">휴학신청일자</li>
+            <li class="cellContent">&nbsp</li>
+          </ul>
+
+          <ul class="row4">
+            <li class="cellName">복학예정년도</li>
+            <li class="cellContent">&nbsp</li>
+            <li class="cellName">복학예정학기</li>
+            <li class="cellContent">&nbsp</li>
+            <li class="cellName">보증인동의확인</li>
+            <li class="cellContent">보증인동의<input type='checkbox' name='timeOff' /></li>
+          </ul>
+
+          <ul class="row5">
+            <li class="cell5_1">위와 같이 휴학을 신청하오니 허가하여 주시기 바랍니다.</li>
+          </ul>
+
+          <ul class="row6">
+            <li class="cell6_1">
+              <b>※ 주의사항</b> 
+              <p>
+                1. (일반휴학+질병휴학)은 총 휴학학기수가 6학기를 초과해서는 안됩니다. 
+              </p>
+              <p>
+                2. 신입생은 1학년 1학기 중 일반휴학이 불가능합니다.
+              </p>
+              <p>
+                3. 휴학을 연장하고자 하는 학생은 휴학기간이 만료되는 학기(복학예정 년도 학기)의 휴학신청 기간 내에 휴학신청(연장)을 하여야 합니다. 
+              </p>
+              <p>
+                4. 휴학기간 중 주소가 변동되는 학생은 본 통합정보시스템 개인정보수정에서 주소변경이 가능 합니다.
+              </p>
+              <p>
+                <span style="color:red;">5. 휴학승인은 학과장과의 상담후 처리됩니다. 반드시 상담하여야 합니다.</span>
+              </p>
+              <b>※ 군/질병/육아(임신,출산,육아)/창업 휴학시 유의사항</b>
+              <p>
+                <span style="color:red;">1. 증명서류(입영통지서, 병원진단서, 주민등록등본 또는 가족관계증명서, 창업관련 서류 등)를 학과에 제출하여야 합니다.</span>
+                
+              </p>
+              <p>
+                2. 학과 및 대학원 담당자가 증명서류 확인 후 휴학신청을 진행할수 있습니다.
+              </p>
+              <p>
+                3. 군휴학의 휴학기간은 기본 2년으로 설정되어 있습니다. 필요시 수정하세요.
+              </p>
+              <b>※ 병무청 공지사항 (군휴학 신청자 유의사항)
+                휴학해도 본인이 입영신청을 하지 않으면 계속해서 입영 연기자로 관리됩니다. 군 입대를 목적으로 휴학하는 학생은 먼저 입영신청을 하고, 
+                입영일자가 결정된 후 휴학을 해야 학업공백기간을 줄일 수 있습니다.</b>
+            </li>
+          </ul>
+          <br>
+          <div class="btn_div">
+            <button class="save_btn" type="button">
+              신청
+            </button>
+            <button class="cancel_btn" type="button">
+              신청취소
+            </button>
+          </div>
+          <br>
+          <br>
+          <br>
+          <ul class="row7">
+            <li class="cell7_1">[휴복학 신청 내역]</li>
+          </ul>
+          <ul class="row8">
+            <li class="cell8_1">휴/복학 구분</li>
+            <li class="cell8_2">휴/복학 종류</li>
+            <li class="cell8_3">신청일자</li>
+            <li class="cell8_4">시작년도</li>
+            <li class="cell8_5">시작학기</li>
+            <li class="cell8_6">복학(예정)년도</li>
+            <li class="cell8_7">복학(예정)학기</li>
+            <li class="cell8_8">휴학 학기수</li>
+            <li class="cell8_9">진행상황</li>
+          </ul>
+          <ul class="row9">
+            <li class="cell9_1">복학</li>
+            <li class="cell9_2">제대복학</li>
+            <li class="cell9_3">2020-02-03</li>
+            <li class="cell9_4">2020</li>
+            <li class="cell9_5">1학기</li>
+            <li class="cell9_6">&nbsp</li>
+            <li class="cell9_7">1학기</li>
+            <li class="cell9_8">-</li>
+            <li class="cell9_9">최종승인</li>
+          </ul>
+          <ul class="row10">
+            <li class="cell10_1">휴학</li>
+            <li class="cell10_2">병역휴학</li>
+            <li class="cell10_3">2017-12-22</li>
+            <li class="cell10_4">2018</li>
+            <li class="cell10_5">1학기</li>
+            <li class="cell10_6">2020</li>
+            <li class="cell10_7">1학기</li>
+            <li class="cell10_8">4</li>
+            <li class="cell10_9">최종승인</li>
+          </ul>
+          
+        </div>
+      </article>
+    </section>
+  </div>
+</body>
+
+</html>

@@ -1,0 +1,308 @@
+/* TIME OFF PART */
+
+/* 공통사항 */
+.mainContent_div .counseling_content {
+  overflow: hidden;
+}
+
+.mainContent_div .counseling_content div {
+  float: left;
+}
+
+
+/* ---------- 수강신청 ---------- */
+.mainContent_div .counseling_content .counseling_board {
+  background-color: #f4f4f4;
+  width: 850px;
+  height: 710px;
+}
+
+.mainContent_div .counseling_content .counseling_board ul {
+  background-color: #cccaca;
+  list-style: none;
+  width: 854px;
+  position: relative;
+  top: 10px;
+  padding: 2px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.mainContent_div .counseling_content .counseling_board ul li {
+  display: inline-block;
+  border: 1px solid rgb(97, 96, 96);
+  height: 30px;
+  margin: -2.9px;
+  background-color: #ffffff;
+}
+
+/* -------------------------------- */
+.mainContent_div .counseling_content .counseling_board .row1 li {
+  width: 140px;
+  text-align: center;
+}
+
+.mainContent_div .counseling_content .counseling_board .row1 .cellName {
+  background-color: #cccaca;
+}
+
+.mainContent_div .counseling_content .counseling_board .row1 :nth-child(2) {
+  width: 110px;
+}
+
+.mainContent_div .counseling_content .counseling_board .row1 :nth-child(3) {
+  width: 170px;
+}
+
+/* -------------------------------- */
+.mainContent_div .counseling_content .counseling_board .row2 li {
+  width: 140px;
+}
+
+.mainContent_div .counseling_content .counseling_board .row2 .cellName {
+  background-color: #cccaca;
+}
+
+.mainContent_div .counseling_content .counseling_board .row2 :nth-child(2) {
+  width: 110px;
+}
+
+.mainContent_div .counseling_content .counseling_board .row2 :nth-child(3) {
+  width: 596px;
+}
+
+/* -------------------------------- */
+.mainContent_div .counseling_content .counseling_board .row3 li {
+  width: 140px;
+}
+
+.mainContent_div .counseling_content .counseling_board .row3 .cellName {
+  background-color: #cccaca;
+}
+
+.mainContent_div .counseling_content .counseling_board .row3 :nth-child(2) {
+  width: 110px;
+}
+
+.mainContent_div .counseling_content .counseling_board .row3 :nth-child(3) {
+  width: 300px;
+}
+
+.mainContent_div .counseling_content .counseling_board .row3 :nth-child(5) {
+  width: 154px;
+}
+
+/* -------------------------------- */
+.mainContent_div .counseling_content .counseling_board .row4 li {
+  width: 140px;
+}
+
+.mainContent_div .counseling_content .counseling_board .row4 .cellName {
+  background-color: #cccaca;
+}
+
+.mainContent_div .counseling_content .counseling_board .row4 :nth-child(2) {
+  width: 110px;
+}
+
+.mainContent_div .counseling_content .counseling_board .row4 :nth-child(3) {
+  width: 300px;
+}
+
+.mainContent_div .counseling_content .counseling_board .row4 :nth-child(5) {
+  width: 154px;
+}
+
+/* -------------------------------- */
+.mainContent_div .counseling_content .counseling_board .row5 li {
+  width: 140px;
+}
+
+.mainContent_div .counseling_content .counseling_board .row5 .cellName {
+  background-color: #cccaca;
+}
+
+.mainContent_div .counseling_content .counseling_board .row5 :nth-child(2) {
+  width: 110px;
+}
+
+.mainContent_div .counseling_content .counseling_board .row5 :nth-child(3) {
+  width: 300px;
+}
+
+.mainContent_div .counseling_content .counseling_board .row5 :nth-child(5) {
+  width: 154px;
+}
+
+/* -------------------------------- */
+.mainContent_div .counseling_content .counseling_board .row6 li {
+  width: 140px;
+}
+
+.mainContent_div .counseling_content .counseling_board .row6 .cellName {
+  background-color: #cccaca;
+}
+
+.mainContent_div .counseling_content .counseling_board .row6 :nth-child(2) {
+  width: 711px;
+}
+
+
+/* ---------- 수강신청내역 ---------- */
+.mainContent_div .counseling_content .counseling_board .row7 li {
+  width: 140px;
+  height: 500px;
+}
+
+.mainContent_div .counseling_content .counseling_board .row7 .cellName {
+  background-color: #cccaca;
+}
+
+.mainContent_div .counseling_content .counseling_board .row7 :nth-child(2) {
+  width: 711px;
+
+}
+
+
+
+/* ---------- counseling2_board ---------- */
+.mainContent_div .counseling_content .counseling2_board {
+  background-color: #f4f4f4;
+  width: 560px;
+  height: 710px;
+}
+
+.mainContent_div .counseling_content .counseling2_board ul {
+  background-color: #cccaca;
+  list-style: none;
+  width: 534px;
+  position: relative;
+  top: 10px;
+  padding: 2px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.mainContent_div .counseling_content .counseling2_board ul li {
+  display: inline-block;
+  border: 1px solid rgb(97, 96, 96);
+  height: 30px;
+  margin: -2.9px;
+  background-color: #ffffff;
+}
+
+/* ---------------------------------------- */
+.mainContent_div .counseling_content .counseling2_board .row1 li {
+  width: 131px;
+  text-align: center;
+}
+
+.mainContent_div .counseling_content .counseling2_board .row1 .cellName {
+  background-color: #cccaca;
+}
+
+.mainContent_div .counseling_content .counseling2_board .row2 li {
+  width: 131px;
+  text-align: center;
+}
+
+.mainContent_div .counseling_content .counseling2_board .row2 .cellName {
+  background-color: #cccaca;
+}
+
+.mainContent_div .counseling_content .counseling2_board .row3 li {
+  width: 131px;
+  text-align: center;
+}
+
+.mainContent_div .counseling_content .counseling2_board .row3 .cellName {
+  background-color: #cccaca;
+}
+
+.mainContent_div .counseling_content .counseling2_board .row4 li {
+  width: 131px;
+  text-align: center;
+}
+
+.mainContent_div .counseling_content .counseling2_board .row4 .cellName {
+  background-color: #cccaca;
+}
+
+.mainContent_div .counseling_content .counseling2_board .row5 li {
+  width: 131px;
+  text-align: center;
+}
+
+.mainContent_div .counseling_content .counseling2_board .row5 .cellName {
+  background-color: #cccaca;
+}
+
+.mainContent_div .counseling_content .counseling2_board .row6 li {
+  width: 131px;
+  text-align: center;
+}
+
+.mainContent_div .counseling_content .counseling2_board .row6 .cellName {
+  background-color: #cccaca;
+}
+
+
+
+/* ---------- counseling3_board ---------- */
+
+.mainContent_div .counseling_content .counseling3_board {
+  background-color: #f4f4f4;
+  width: 1410px;
+  height: 170px;
+}
+
+.mainContent_div .counseling_content .counseling3_board ul {
+  background-color: #cccaca;
+  list-style: none;
+  width: 1304px;
+  position: relative;
+  top: 10px;
+  padding: 2px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.mainContent_div .counseling_content .counseling3_board ul li {
+  display: inline-block;
+  border: 1px solid rgb(97, 96, 96);
+  height: 30px;
+  margin: -2.9px;
+  background-color: #ffffff;
+}
+
+
+.mainContent_div .counseling_content .counseling3_board .row1 li {
+  width: 1300px;
+  background-color: #cccaca;
+}
+
+.mainContent_div .counseling_content .counseling3_board .row2 li {
+  width: 142px;
+  background-color: #cccaca;
+}
+
+.mainContent_div .counseling_content .counseling3_board .row3 li {
+  width: 142px;
+  background-color: #fff;
+}
+
+.mainContent_div .counseling_content .counseling3_board .row4 li {
+  width: 142px;
+  background-color: #fff;
+}
+.mainContent_div .counseling_content .counseling3_board ul .cellContent {
+  width: 724px;
+}
+
+/* ---------- 버튼 ---------- */
+/* 수정, 저장, 신청취소 버튼 */
+.mainContent_div .counseling_content .counseling2_board .btn_div {
+  background-color: #f4f4f4;
+  width: 100%;
+  text-align: center;
+}

@@ -1,0 +1,194 @@
+/* TIME OFF PART */
+
+/* 공통사항 */
+.mainContent_div .apply_content {
+  overflow: hidden;
+}
+
+.mainContent_div .apply_content div {
+  float: left;
+}
+
+
+/* ---------- 수강신청 ---------- */
+.mainContent_div .apply_content .apply_board {
+  background-color: #f4f4f4;
+  width: 1410px;
+  height: 880px;
+}
+
+.mainContent_div .apply_content .apply_board ul {
+  background-color: #cccaca;
+  list-style: none;
+  width: 1304px;
+  position: relative;
+  top: 10px;
+  padding: 2px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.mainContent_div .apply_content .apply_board ul li {
+  display: inline-block;
+  border: 1px solid rgb(97, 96, 96);
+  height: 30px;
+  margin: -2.9px;
+  background-color: #ffffff;
+}
+
+.mainContent_div .apply_content .apply_board .row1 {
+  text-align: justify;
+}
+
+.mainContent_div .apply_content .apply_board .row1 li {
+  width: 100px;
+  text-align: center;
+}
+
+.mainContent_div .apply_content .apply_board .row1 :nth-child(5) {
+  width: 268px;
+}
+
+.mainContent_div .apply_content .apply_board .row1 .cellName {
+  background-color: #cccaca;
+}
+
+.mainContent_div .apply_content .apply_board .row1 :nth-child(1) {
+  background-color: #e45773;
+  color: white;
+}
+
+.mainContent_div .apply_content .apply_board .row2 {
+  margin-top: 10px;
+}
+
+.mainContent_div .apply_content .apply_board .row2 li {
+  width: 184px;
+}
+
+.mainContent_div .apply_content .apply_board .row2 .cellName {
+  background-color: #cccaca;
+  text-align: justify;
+}
+
+.mainContent_div .apply_content .apply_board .row3 li {
+  width: 184px;
+}
+
+.mainContent_div .apply_content .apply_board .row3 .cellName {
+  background-color: #cccaca;
+  text-align: justify;
+}
+
+.mainContent_div .apply_content .apply_board .row4 {
+  margin-top: 10px
+}
+
+.mainContent_div .apply_content .apply_board .row4 li {
+  width: 1304px;
+  background-color: #cccaca;
+}
+
+.mainContent_div .apply_content .apply_board .row5 li {
+  width: 97px;
+}
+
+.mainContent_div .apply_content .apply_board .row5 :nth-child(2) {
+  width: 110px;
+}
+
+.mainContent_div .apply_content .apply_board .row5 :nth-child(5) {
+  width: 184px;
+}
+
+.mainContent_div .apply_content .apply_board .row5 :nth-child(3) {
+  width: 40px;
+}
+
+.mainContent_div .apply_content .apply_board .row5 :nth-child(4) {
+  width: 65px;
+}
+
+.mainContent_div .apply_content .apply_board .row5 .cellName {
+  background-color: #cccaca;
+}
+
+
+.mainContent_div .apply_content .apply_board .row6 li {
+  height: auto;
+  width: 1304px;
+  text-align: center;
+  padding: 10px 0;
+}
+
+
+
+/* ---------- 수강신청내역 ---------- */
+.mainContent_div .apply_content .apply_board .row7 {
+  margin-top: 10px
+}
+
+.mainContent_div .apply_content .apply_board .row7 li {
+  width: 1304px;
+  background-color: #cccaca;
+}
+
+.mainContent_div .apply_content .apply_board .row8 li {
+  width: 97px;
+}
+
+.mainContent_div .apply_content .apply_board .row8 :nth-child(2) {
+  width: 110px;
+}
+
+.mainContent_div .apply_content .apply_board .row8 :nth-child(5) {
+  width: 184px;
+}
+
+.mainContent_div .apply_content .apply_board .row8 :nth-child(3) {
+  width: 40px;
+}
+
+.mainContent_div .apply_content .apply_board .row8 :nth-child(4) {
+  width: 65px;
+}
+
+.mainContent_div .apply_content .apply_board .row8 .cellName {
+  background-color: #cccaca;
+}
+
+
+.mainContent_div .apply_content .apply_board .row9 li {
+  width: 97px;
+}
+
+.mainContent_div .apply_content .apply_board .row9 :nth-child(2) {
+  width: 110px;
+}
+
+.mainContent_div .apply_content .apply_board .row9 :nth-child(5) {
+  width: 184px;
+}
+
+.mainContent_div .apply_content .apply_board .row9 :nth-child(3) {
+  width: 40px;
+}
+
+.mainContent_div .apply_content .apply_board .row9 :nth-child(4) {
+  width: 65px;
+}
+
+.mainContent_div .apply_content .apply_board .row10 li {
+  height: auto;
+  width: 1304px;
+  text-align: center;
+  padding: 10px 0;
+}
+
+/* ---------- 버튼 ---------- */
+/* 수정, 저장, 신청취소 버튼 */
+.mainContent_div .apply_content .apply_board .btn_div {
+  background-color: #f4f4f4;
+  width: 100%;
+  text-align: center;
+}

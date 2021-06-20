@@ -1,0 +1,164 @@
+/* TRANSFER PART */
+
+/* 공통사항 */
+.mainContent_div .transfer_content {
+  overflow: hidden;
+}
+
+.mainContent_div .transfer_content div {
+  float: left;
+}
+
+
+/* ---------- major ---------- */
+.mainContent_div .transfer_content .major_board {
+  background-color: #f4f4f4;
+  width: 705px;
+  height: 880px;
+}
+
+.mainContent_div .transfer_content .major_board ul {
+  background-color: rgb(204, 202, 202);
+  list-style: none;
+  width: 650px;
+  position: relative;
+  top: 80px;
+  padding: 2px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.mainContent_div .transfer_content .major_board ul li {
+  display: inline-block;
+  border: 1px solid rgb(97, 96, 96);
+  height: 30px;
+  margin: -2.9px;
+  background-color: #fff;
+}
+
+.mainContent_div .transfer_content .major_board ul :nth-child(1) {
+  background-color: rgb(204, 202, 202);
+  width: 100px;
+  text-align: center;
+}
+
+.mainContent_div .transfer_content .major_board ul :nth-child(2) {
+  width: 546px;
+}
+
+.mainContent_div .transfer_content .major_board .row1 li {
+  width: 650px;
+}
+
+/* major: 신청사유 */
+.mainContent_div .transfer_content .major_board .row13 li {
+  width: 650px;
+}
+.mainContent_div .transfer_content .major_board .row14 li {
+  width: 650px;
+  background-color: #fff;
+  height: 100px;
+}
+
+
+
+
+/* ---------- privacy ---------- */
+/* 공통: privacy */
+.mainContent_div .transfer_content .privacy_board {
+  background-color: #f4f4f4;
+  width: 705px;
+  height: 350px;
+}
+
+.mainContent_div .transfer_content .privacy_board button {
+  display: block;
+  margin: 0 auto;
+  cursor: pointer;
+  width: 200px;
+}
+
+/* 개인정보테이블 */
+.mainContent_div .transfer_content .privacy_board ul {
+  background-color: rgb(204, 202, 202);
+  list-style: none;
+  width: 652px;
+  position: relative;
+  top: 80px;
+  padding: 2px;
+  margin: 0 auto;
+}
+
+.mainContent_div .transfer_content .privacy_board ul li {
+  display: inline-block;
+  border: 1px solid rgb(97, 96, 96);
+  height: 30px;
+  margin: -2.9px;
+  background-color: #fff;
+}
+
+.mainContent_div .transfer_content .privacy_board ul :nth-child(1) {
+  background-color: rgb(204, 202, 202);
+  width: 100px;
+  text-align: center;
+}
+
+.mainContent_div .transfer_content .privacy_board ul :nth-child(2) {
+  width: 546px;
+  padding-left: 5px;
+}
+
+.mainContent_div .transfer_content .privacy_board .row1 li {
+  width: 652px;
+}
+
+/* ---------- select ---------- */
+.mainContent_div .transfer_content .select_board {
+  width: 705px;
+  height: 530px;
+  background-color: #f4f4f4;
+}
+
+.mainContent_div .transfer_content .select_board ul {
+  background-color: rgb(204, 202, 202);
+  list-style: none;
+  width: 650px;
+  padding: 2px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.mainContent_div .transfer_content .select_board ul li {
+  display: inline-block;
+  border: 1px solid rgb(97, 96, 96);
+  height: 30px;
+  margin: -2.9px;
+  background-color: #fff;
+}
+
+.mainContent_div .transfer_content .select_board ul :nth-child(1) {
+  background-color: rgb(204, 202, 202);
+  width: 100px;
+  text-align: center;
+}
+
+.mainContent_div .transfer_content .select_board ul :nth-child(2) {
+  width: 100px;
+}
+
+.mainContent_div .transfer_content .select_board ul :nth-child(3) {
+  width: 446px;
+}
+
+.mainContent_div .transfer_content .select_board .row1 li {
+  width: 650px;
+}
+
+
+/* ---------- 버튼 ---------- */
+/* 수정, 저장, 신청취소 버튼 */
+.mainContent_div .transfer_content .major_board .btn_div {
+  background-color: #f4f4f4;
+  width: 100%;
+  text-align: center;
+}
